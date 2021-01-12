@@ -1,6 +1,5 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
 <!-- badges: start -->
 
 [![Travis build
@@ -29,12 +28,18 @@ version at
 [malcolmbarrett.shinyapps.io/precisely](https://malcolmbarrett.shinyapps.io/precisely/).
 
 For more, see the
-[vignette](http://precisely.malco.io/articles/introduction-to-precisely.html).
+[vignette](https://precisely.malco.io/articles/introduction-to-precisely.html).
 
 These tools are based on the work of [Rothman and
-Greenland](https://www.ncbi.nlm.nih.gov/pubmed/29912015).
+Greenland](https://pubmed.ncbi.nlm.nih.gov/29912015/).
 
 ## Installation
+
+You precisely from CRAN with:
+
+``` r
+install.packages("precisely")
+```
 
 You can install the development version of precisely with:
 
@@ -110,3 +115,10 @@ map_precisely(
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+## Code of Conduct
+
+Please note that the precisely project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
