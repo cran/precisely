@@ -2,16 +2,13 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/malcolmbarrett/precisely.svg?branch=master)](https://travis-ci.org/malcolmbarrett/precisely)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/malcolmbarrett/precisely?branch=master&svg=true)](https://ci.appveyor.com/project/malcolmbarrett/precisely)
+[![R-CMD-check](https://github.com/malcolmbarrett/precisely/workflows/R-CMD-check/badge.svg)](https://github.com/malcolmbarrett/precisely/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/malcolmbarrett/precisely/branch/master/graph/badge.svg)](https://codecov.io/gh/malcolmbarrett/precisely?branch=master)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/precisely)](https://CRAN.R-project.org/package=precisely)
 [![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 <!-- badges: end -->
 
 # precisely: An R package for estimating sample size based on precision
@@ -78,7 +75,7 @@ n_risk_difference(
   group_ratio = 3,
   ci = .90
 )
-#> # A tibble: 1 x 9
+#> # A tibble: 1 × 9
 #>   n_exposed n_unexposed n_total risk_difference precision exposed unexposed
 #>       <dbl>       <dbl>   <dbl>           <dbl>     <dbl>   <dbl>     <dbl>
 #> 1      524.       1573.   2097.             0.1      0.08     0.4       0.3

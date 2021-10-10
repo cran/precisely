@@ -32,3 +32,11 @@ odds <- function(p) {
 odds_ratio <- function(exposed_cases, exposed_controls) {
   prob_mult(exposed_cases, exposed_controls) / prob_mult(exposed_controls, exposed_cases)
 }
+
+# quiet note re: deps
+quiet_deps <- function() {
+  withSpinner <- shinycssloaders::withSpinner(shiny::actionButton("go", "Go"))
+  shinytheme <- shinythemes::shinytheme("cerulean")
+
+  c(withSpinner, shinytheme)
+}
